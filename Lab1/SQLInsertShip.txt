@@ -1,0 +1,8 @@
+insert into ship values ('A45B678', 'Elzer''s Escape', 2000, 2005, 'passenger');
+insert into ship values ('B222C43', 'Adam''s Apple', 4300, 1999, 'passenger');
+insert into ship values ('C425A33', 'Chuck''s Charger', 12400, 2001, 'cargo');
+insert into ship values ('D673J21', 'Rob''s Renegade', 31000, 1990, 'cargo');
+insert into ship values ('A213D52', 'Jake''s Junker', 1995, 2003, 'passenger');
+insert into ship values ('H983R12', 'Ed''s Endeavor', 21566, 2001, 'cargo');
+insert into ship values ('G231M89', 'Bob''s Billions', 5221, 2005, 'passenger');
+insert into ship values ('F346Z53', 'Tom''s Trawler', 1750, 1998, 'passenger');

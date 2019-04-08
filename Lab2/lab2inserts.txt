@@ -1,0 +1,107 @@
+insert into label values ('Atlantic', '75 Rockefeller Plaza','New York', 'NY','10019', 'USA');
+
+insert into cd values (1, 'A2 1311','Giant Steps', 1960,'Atlantic');
+insert into cd values (2, '83012-2','Swing', 1977,'Atlantic');
+
+insert into person values (1, 'John', 'Coltrane');
+insert into person values (2, 'Tommy', 'Flanagan');
+insert into person values (3, 'Paul', 'Chamber');
+insert into person values (4, 'Art' ,'Taylor');
+insert into person values (5, 'Cheryl', 'Bentyne');
+insert into person values (6, 'Janis', 'Siegel');
+insert into person values (7, 'Tim', 'Hauser');
+insert into person values (8, 'Alan', 'Paul');
+insert into person values (9, 'Joe', 'Taylor');
+
+insert into composition values (1,'Giant Steps',null);
+insert into composition values (2,'Cousin Mary',null);
+insert into composition values (3,'Countdown',null);
+insert into composition values (4,'Spiral',null);
+insert into composition values (5,'Syeeda''s Song Flute',null);
+insert into composition values (6,'Naima',null);
+insert into composition values (7,'Mr. P.C.',null);
+insert into composition values (8,'Stomp of King Porter',1924);
+insert into composition values (9,'Sing a Study in Brown',1937);
+insert into composition values (10,'Sing Moten''s Swing',1997);
+insert into composition values (11,'A-Tisket, A-Tasket',1938);
+insert into composition values (12,'I Know Why',1941);
+insert into composition values (13,'Sing You Sinners',1930);
+insert into composition values (14,'Java Jive',1940);
+insert into composition values (15,'Down South Camp Meetin''',1997);
+insert into composition values (16,'Topsy',1936);
+insert into composition values (17,'Clouds',null);
+insert into composition values (18,'Skyliner',1944);
+insert into composition values (19,'It''s a Good Enough to Keep',null);
+insert into composition values (20,'Choo Choo Ch'' Boogie',1945);
+	
+insert into person_cd values (1,1,1);
+
+insert into person_composition values ('music',1,1,1);
+insert into person_composition values ('music',1,1,2);
+insert into person_composition values ('music',1,1,3);
+
+insert into recording values (1,4.72,'1959-05-04',1);
+insert into recording values (2,5.75,'1959-05-04',2);
+insert into recording values (3,2.35,'1959-05-04',3);
+insert into recording values (4,5.93,'1959-05-04',4);
+insert into recording values (5,7,'1959-05-04',5);
+insert into recording values (6,4.35,'1959-12-02',6);
+insert into recording values (7,2.95,'1959-05-04',7);
+insert into recording values (8,5.93,'1959-04-01',1);
+insert into recording values (9,7,'1959-04-01',6);
+insert into recording values (10,6.95,'1959-05-04',2);
+insert into recording values (11,3.67,'1959-05-04',3);
+insert into recording values (12,4.45,'1959-05-04',2);
+insert into recording values (13,3.2,null,8);
+insert into recording values (14,2.85,null,9);
+insert into recording values (15,3.6,null,10);
+insert into recording values (16,2.95,null,11);
+insert into recording values (17,3.57,null,12);
+insert into recording values (18,2.75,null,13);
+insert into recording values (19,2.85,null,14);
+insert into recording values (20,3.25,null,15);
+insert into recording values (21,3.23,null,16);
+insert into recording values (22,7.2,null,17);
+insert into recording values (23,3.18,null,18);
+insert into recording values (24,3.18,null,19);
+insert into recording values (25,3,null,20);
+insert into recording values (26,2.35,'1962-03-03',3);
+
+insert into track values (1,1,1,1);
+insert into track values (1,2,2,2);
+insert into track values (1,3,3,3);
+insert into track values (1,4,4,4);
+insert into track values (1,5,5,5);
+insert into track values (1,6,6,6);
+insert into track values (1,7,7,7);
+insert into track values (1,8,1,1);
+insert into track values (1,9,6,6);
+insert into track values (1,10,2,2);
+insert into track values (1,11,26,3);
+insert into track values (1,12,5,5);
+insert into track values (2,1,13,8);
+insert into track values (2,2,14,9);
+insert into track values (2,3,15,10);
+insert into track values (2,4,16,11);
+insert into track values (2,5,17,12);
+insert into track values (2,6,18,13);
+insert into track values (2,7,19,14);
+insert into track values (2,8,20,15);
+insert into track values (2,9,21,16);
+insert into track values (2,10,22,17);
+insert into track values (2,11,23,18);
+insert into track values (2,12,24,19);
+insert into track values (2,13,25,20);
+insert into track values (2,14,2,2);
+
+insert into person_composition values ('music',1,1,4);
+insert into person_composition values ('music',1,1,5);
+insert into person_composition values ('music',1,1,6);
+insert into person_composition values ('music',1,1,7);
+
+insert into person_recording values ('tenor sax',1,1,1);
+insert into person_recording values ('piano',2,1,1);
+insert into person_recording values ('bass',3,1,1);
+insert into person_recording values ('drums',4,1,1);
+insert into person_recording values ('drums',2,2,2);
+insert into person_recording values ('piano',9,2,2);
